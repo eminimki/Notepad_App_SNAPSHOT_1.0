@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_main_graph"
+    app:startDestination="@id/myNotesFragment">
+
+    <fragment
+        android:id="@+id/myNotesFragment"
+        android:name="com.eminimki.notepadapp.Fragments.MyNotesFragment"
+        android:label="fragment_my_notes"
+        tools:layout="@layout/fragment_my_notes" >
+        <argument
+            android:name="choosedNoteId"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/calendarFragment"
+        android:name="com.eminimki.notepadapp.Fragments.CalendarFragment"
+        android:label="fragment_calendar"
+        tools:layout="@layout/fragment_calendar" />
+    <fragment
+        android:id="@+id/filterFragment"
+        android:name="com.eminimki.notepadapp.Fragments.FilterFragment"
+        android:label="fragment_filter"
+        tools:layout="@layout/fragment_filter" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.eminimki.notepadapp.Fragments.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

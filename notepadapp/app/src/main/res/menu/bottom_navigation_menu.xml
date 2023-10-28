@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/myNotesNavButton"
+        android:enabled="true"
+        android:icon="@drawable/ic_book"
+        android:title="@string/myNotes"/>
+    <item
+        android:id="@+id/calendarNavButton"
+        android:enabled="true"
+        android:icon="@drawable/ic_calendar"
+        android:title="@string/calendar"/>
+    <item
+        android:id="@+id/filterNavButton"
+        android:enabled="true"
+        android:icon="@drawable/ic_filter"
+        android:title="@string/filter"/>
+    <item
+        android:id="@+id/settingsNavButton"
+        android:enabled="true"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/settings"/>
+</menu>
